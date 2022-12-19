@@ -1,0 +1,6 @@
+The Singleton pattern is a design pattern that ensures that a class has only one instance and provides a global
+access point to it. It is useful when we need to have a single instance of a class that is shared among different
+objects or components in an application.
+
+One way to implement the Singleton pattern in Java is to make the class responsible for creating its own instance
+a private static inner class. This inner class can be used to hold the single instance of the outer class.

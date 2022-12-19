@@ -1,0 +1,14 @@
+The Decorator pattern is a design pattern in object-oriented programming that allows you to add new behavior to
+existing objects dynamically. It involves creating a wrapper class that wraps the original class and adds
+additional functionality to it.
+
+One of the main strengths of the Decorator pattern:
+
+it provides a flexible alternative to using inheritance for adding behavior to objects.
+It allows you to add new behavior to an object at runtime, rather than being fixed at compile-time.
+This can be particularly useful when you need to add behavior to a large number of objects that belong to
+a class hierarchy, as it allows you to avoid creating a large number of subclasses that each add a single feature.
+
+One potential weakness of the Decorator pattern:
+it can result in a large number of small, interconnected objects, which can make it more difficult
+to understand and maintain the codebase.

@@ -1,0 +1,13 @@
+The Composite pattern is a design pattern that allows a client object to treat a group of objects in the
+same way as a single object. It allows a client to perform operations on individual objects and on
+collections of objects uniformly, by abstracting the implementation details of the individual objects and
+the collections into a common interface.
+
+One of the main strengths of the Composite pattern is that it allows clients to manipulate objects in a hierarchical
+structure in a uniform manner. This allows clients to treat both individual objects and collections of objects in the
+same way, without needing to know the specifics of the objects' implementations. Additionally, the Composite pattern
+allows clients to manipulate objects in a tree-like structure, which can be useful for representing hierarchical
+relationships between objects.
+
+One potential weakness of the Composite pattern is that it can add complexity to the design of a system, as it
+requires the creation of additional classes to implement the composite and leaf objects.

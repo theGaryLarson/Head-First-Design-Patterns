@@ -1,0 +1,13 @@
+The Template Method pattern is a behavioral design pattern that defines the skeleton of an algorithm in
+a method, called the template method, and allows subclasses to provide the implementation for one or more
+steps of the algorithm. This pattern allows you to define the overall structure of an algorithm, while allowing
+subclasses to override certain steps of the algorithm to provide their own implementation.
+
+One of the main strengths of the Template Method pattern is that it allows you to define a common structure for a
+group of related algorithms, while still allowing subclasses to provide their own implementation for certain steps.
+This can make it easier to maintain and modify the algorithms, as you only need to make changes in one
+place (the template method) rather than in multiple places throughout the codebase.
+
+A potential weakness of the Template Method pattern:
+
+it can make it more difficult to modify the algorithm, as you may need to modify the template method itself to add or remove steps. This can also make it more difficult to understand the overall structure of the algorithm, as it may not be immediately clear which steps are being implemented by the template method and which are being provided by subclasses.

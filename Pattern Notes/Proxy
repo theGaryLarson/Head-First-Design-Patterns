@@ -1,0 +1,21 @@
+The Proxy pattern is a design pattern that provides a surrogate or placeholder object for another object and
+controls access to it. The proxy object has the same interface as the original object and can be used in place
+of it.The proxy can intercept requests and perform additional actions before or after forwarding the request to
+the original object.
+
+One common use of the Proxy pattern is to provide a remote proxy, which represents a object located in a different
+address space and communicates with it using a network. This can be useful for improving the performance of an
+application by reducing the number of network round trips, or for providing access to a remote object to clients
+that are not on the same machine.
+
+Strengths:
+
+The Proxy pattern allows you to provide a placeholder for an object, which can be used to control access to it
+and add additional functionality. It can improve the performance of an application by reducing the number of
+network round trips or by providing a local representation of a remote object.
+
+Weaknesses:
+
+The Proxy pattern can add an additional level of indirection to the application, which can make it more complex
+and harder to understand.
+It can also result in a performance overhead if the proxy adds a significant amount of additional functionality.

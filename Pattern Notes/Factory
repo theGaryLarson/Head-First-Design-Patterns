@@ -1,0 +1,16 @@
+The factory pattern is a creational design pattern that provides an interface for creating objects in a super class,
+but allows subclasses to alter the type of objects that will be created.
+
+The factory pattern allows for the creation of objects without specifying the exact class of object that will be
+created. This is done by creating an interface for creating an object, but letting subclasses decide which class
+to instantiate. The subclasses are responsible for implementing the interface and creating objects.
+
+One strength of the factory pattern:
+
+it allows for the creation of objects without specifying their concrete classes.
+This can be useful when the actual type of object to be created is not known until runtime
+or when the system should be independent of how objects are created and composed.
+
+A weakness of the factory pattern:
+
+it can result in a large number of small classes, which can make the code more difficult to maintain.

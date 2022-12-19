@@ -1,0 +1,20 @@
+The Adapter pattern is a structural design pattern that allows two unrelated classes to work together by converting
+the interface of one class into an interface expected by the other class. It is often used to make existing classes
+work with others without modifying their source code. An example is Adapting legacy code to fit into new systems.
+
+The Adapter pattern has the following strengths:
+
+1. It allows you to reuse existing classes that may not be compatible with the rest of your code without modifying
+their source code.
+
+2. It promotes loose coupling between classes, making it easier to change the implementation of an adapter without
+affecting the client code.
+
+3. It is a simple and straightforward pattern to implement.
+
+
+The Adapter pattern has the following weaknesses:
+
+1. It can introduce additional complexity to your codebase, as it requires the creation of additional classes.
+
+2. It may not be as efficient as using inheritance to achieve the same result, as it requires more method calls.

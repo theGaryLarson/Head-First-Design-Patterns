@@ -1,0 +1,39 @@
+The Observer pattern is a design pattern in which an object, called the subject, maintains a list of its dependents,
+called observers, and automatically notifies them of any state changes. This allows the observers to be notified when
+the state of the subject changes and to update themselves accordingly.
+
+The main strengths of the Observer pattern are:
+
+It allows for loose coupling between the subject and its observers, as the subject does not need to know the specifics
+of how its state changes are handled by the observers.
+It allows for a simple and efficient way to broadcast state changes to multiple observers.
+It allows for the addition and removal of observers at runtime, which can be useful in dynamic systems.
+
+Some potential weaknesses of the Observer pattern include:
+
+It can lead to performance issues if there are a large number of observers, as each observer will need to be notified
+of state changes.
+It can result in complex and hard-to-debug systems if the observers are not implemented correctly.
+It can result in unnecessary updates if the observers are not designed to filter out unnecessary updates.
+
+Eager or Lazy:
+
+In the observer pattern, the subject typically maintains a list of observers that are interested in receiving
+updates from the subject. When the subject's state changes, it notifies all of its registered observers by calling
+the update method on each of them.
+
+There are two main approaches to implementing this notification process:
+
+Eager update:
+ In this approach, the subject immediately sends updates to all of its registered observers as soon as its state
+ changes. This can be efficient in cases where the number of observers is small and the cost of sending an update
+ is low.
+
+Lazy update:
+In this approach, the subject defers sending updates to its observers until they specifically request an update.
+This can be more efficient in cases where the number of observers is large and the cost of sending updates is high,
+because it allows the subject to avoid sending updates to observers that are not interested in receiving them.
+
+It's worth noting that the choice between eager and lazy update depends on the specific requirements and constraints
+of the application. There is no one-size-fits-all solution, and the most appropriate approach may vary depending on
+the context.

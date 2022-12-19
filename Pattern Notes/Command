@@ -1,0 +1,19 @@
+The Command pattern is a behavioral design pattern that allows you to encapsulate a request as an object,
+thereby allowing you to parameterize clients with different requests, queue or log requests, and support undoable
+operations.
+
+In the Command pattern, a class represents a command, and the objects of this class represent the requests.
+The command object has a execute() method that is used to trigger the execution of the command.
+
+One of the main strengths of the Command pattern is that it decouples the object that invokes the operation
+(the client) from the object that performs the operation (the receiver). This separation of concerns can make it
+easier to add new commands or change existing ones without affecting the client.
+
+Another strength of the Command pattern is that it allows you to easily implement undo and redo functionality.
+By maintaining a history of executed commands, you can easily implement undo and redo operations by calling the
+undo() or redo() methods on the appropriate command objects.
+
+One potential weakness of the Command pattern is that it can increase the complexity of your code, as it requires
+the creation of additional classes for each command. Additionally, the Command pattern can make it more difficult
+to understand the relationships between the client, the command, and the receiver, as the relationships are not as
+straightforward as in more traditional design patterns.

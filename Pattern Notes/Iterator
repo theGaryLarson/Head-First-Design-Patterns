@@ -1,0 +1,12 @@
+The Iterator pattern is a design pattern that allows a client object to iterate over a collection of
+objects in a uniform manner, without the need to know the underlying implementation of the collection.
+It allows the client to access elements of a collection sequentially, without exposing the underlying
+representation of the collection.
+
+One of the main strengths of the Iterator pattern is that it decouples the collection from the iteration over
+its elements. This allows the client to iterate over the elements of the collection without needing to know the
+specifics of the collection's implementation. Additionally, the Iterator pattern allows multiple iterators to
+be created for the same collection, allowing multiple clients to iterate over the collection simultaneously.
+
+One potential weakness of the Iterator pattern is that it can add complexity to the design of a system, as it
+requires the creation of additional classes to implement the iterator.
