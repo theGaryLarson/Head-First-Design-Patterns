@@ -1,0 +1,19 @@
+The Chain of Responsibility pattern is a behavioral design pattern that allows a request to be
+passed along a chain of objects. The pattern allows a series of objects to attempt to handle a
+request or command, and decouples the sender and receiver of the request.
+
+Strengths:
+
+It promotes loose coupling, as the objects in the chain are only aware of their immediate successors, rather
+than the entire chain. This makes it easier to add, remove, or rearrange objects in the chain without affecting
+the overall system.
+
+It allows for flexibility, as the chain can be modified at runtime, allowing new behavior to be added
+or existing behavior to be modified.
+
+Weaknesses:
+
+It can be difficult to debug, as it can be difficult to determine which object in the chain is responsible
+for handling a particular request.
+
+It can also result in performance issues if the chain is too long or if there are too many requests being processed.
