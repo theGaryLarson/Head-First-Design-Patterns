@@ -1,0 +1,28 @@
+The Builder pattern is a creational design pattern that allows for the creation of complex
+objects in a step-by-step manner. It separates the construction of an object from its representation,
+allowing for more flexible and efficient creation of objects.
+
+Strengths:
+allows for the creation of complex objects
+in a step-by-step manner, making the process of object creation more flexible and easier to understand.
+Additionally, the Builder pattern allows for the creation of objects with different representations, as
+the construction of the object is separate from its representation.
+
+Weaknesses:
+
+Code complexity - The Builder pattern can result in a large number of small classes,
+which can make the codebase more complex and harder to understand.
+
+Increased verbosity -
+The Builder pattern can also lead to more verbose code, as it requires the creation
+of multiple classes and methods for the construction of an object.
+
+Limited use cases - The Builder pattern is most useful when building complex objects with
+many optional parameters. If the object being built is simple and does not have many optional
+parameters, the Builder pattern may be unnecessary and add unnecessary complexity to the codebase.
+
+Decreased performance -
+The Builder pattern may also result in decreased performance, as it requires
+the creation of multiple objects and method calls to build a single object. This can
+be especially noticeable in cases where the object being built is simple and does not
+require many optional parameters.

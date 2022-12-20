@@ -2,6 +2,13 @@ package com.patterns.builder;
 
 /**
  * The director class, which controls the construction process.
+ *
+ * As you can see, the Director class has two construct methods:
+ * one that takes in the required parameters for constructing a Person
+ * object (name, age, and gender), and another that takes in all the
+ * optional parameters as well (address, phone number, email, and social
+ * security number). The Builder object is used to set the different parameters
+ * of the Person object in both methods.
  */
 public class Director {
     private Builder builder;
