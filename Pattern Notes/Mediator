@@ -1,0 +1,12 @@
+The Mediator pattern is a behavioral design pattern that allows communication between objects through a mediator
+object, rather than allowing objects to communicate directly. This can be useful in cases where the objects have
+complex or changing relationships, as the mediator can handle communication between the objects and abstract away
+the details of their interactions.
+
+One strength of the Mediator pattern is that it can reduce the complexity and coupling between objects, making
+the system more flexible and maintainable. It can also promote the Single Responsibility Principle, as the mediator
+can handle communication between objects rather than each object having to be aware of and communicate with all other
+objects.
+
+However, one potential weakness of the Mediator pattern is that it can introduce an additional layer of indirection,
+which can make the system more difficult to understand and debug.
