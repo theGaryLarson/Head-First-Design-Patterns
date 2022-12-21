@@ -14,10 +14,10 @@ public class ConcreteHandlerA implements Handler {
             System.out.println("ConcreteHandlerA handled the request.");
         } else {
             // pass the request to the next handler
-//            next.handleRequest(request);
+            next.handleRequest(request);
             // optimize - my optimization to handle requests that are not handled and to ensure the appropriate handler is called
             //  regardless of where it is passed in the chain
-            RequestHandler.handleRequest(request);
+//            RequestHandler.handleRequest(request);
         }
     }
     
