@@ -1,0 +1,39 @@
+The Flyweight design pattern is a structural pattern that is used to minimize memory usage
+or computational expenses by sharing as much data as possible with other similar objects.
+It is an optimization technique that allows us to use fewer objects and reduce memory footprint.
+
+A Flyweight is a small, simple object that is used to represent a larger object.
+The Flyweight pattern reduces the number of objects that an application creates
+and uses by sharing objects that have similar data. Instead of creating a new
+object each time one is needed, the application uses an existing object if possible,
+or creates one if necessary.
+
+The Flyweight pattern consists of three types of objects:
+
+Flyweight: This is an interface that defines the methods that flyweight objects must implement.
+It acts as a factory for creating flyweight objects.
+
+ConcreteFlyweight: This is a class that implements the Flyweight interface.
+It stores the intrinsic data that is shared by all flyweight objects.
+
+UnsharedConcreteFlyweight: This is a class that stores extrinsic data that is specific to each
+flyweight object. It is not shared among flyweight objects.
+
+The Flyweight pattern has the following strengths:
+
+It reduces the number of objects that an application creates and uses, which can
+save memory and reduce the cost of garbage collection.
+
+It allows objects to be shared, which can improve performance by reducing the
+number of calls to the constructor.
+
+It can make an application more scalable, as it can handle a large number of
+objects efficiently.
+
+However, the Flyweight pattern also has some weaknesses:
+
+It requires the creation of a large number of small objects, which can increase
+the overhead of creating and managing these objects.
+
+It can be difficult to implement, as it requires careful design and planning to
+ensure that objects are shared effectively.
