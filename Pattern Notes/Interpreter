@@ -1,0 +1,13 @@
+The Interpreter pattern is a behavioral design pattern that defines a grammar
+for a simple language, and implements an interpreter for that language. It allows
+a client to specify operations in the language, and the interpreter executes those operations.
+
+One strength of the Interpreter pattern is that it allows a client to define new
+operations simply by defining a new class that implements the appropriate interface.
+Another strength is that the interpreter can be implemented to optimize execution,
+such as by using an abstract syntax tree.
+
+A weakness of the Interpreter pattern is that the interpreter can become complex and hard
+to maintain if the language is large or has many operations. Additionally, the use of the
+Interpreter pattern can make the client code harder to read, as it may be difficult to understand
+the language being used.
