@@ -20,4 +20,3 @@ public class Proxy implements Subject {
         System.out.println("Postprocessing after forwarding request.");
     }
 }
-

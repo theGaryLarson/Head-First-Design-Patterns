@@ -50,4 +50,3 @@ abstract class DataProcessor {
      */
     protected abstract void writeData(String data);
 }
-
