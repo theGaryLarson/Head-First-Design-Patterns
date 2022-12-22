@@ -2,6 +2,8 @@ package com.patterns.memento;
 
 /**
  * The MementoDemo class demonstrates the use of the Memento pattern.
+ * This class creates an Originator and a Caretaker object, and then demonstrates how to use the
+ * Memento pattern to save and restore the state of the originator.
  */
 public class MementoDemo {
     public static void main(String[] args) {
@@ -29,5 +31,4 @@ public class MementoDemo {
         System.out.println("Current state: " + originator.getState()); // Output: "Current state: State 1"
     }
 }
-/*This class creates an Originator and a Caretaker object, and then demonstrates how to use the
-Memento pattern to save and restore the state of the originator.*/
+
