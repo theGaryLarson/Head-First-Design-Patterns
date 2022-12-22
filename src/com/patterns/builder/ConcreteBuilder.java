@@ -54,4 +54,3 @@ public class ConcreteBuilder implements Builder {
         return new Person(name, age, gender, address, phoneNumber, email, socialSecurityNumber);
     }
 }
-
