@@ -64,4 +64,3 @@ operation is not supported.
 This allows the client to treat both composite objects and leaf objects in a uniform manner, without needing to know
 the specifics of the objects' implementations. The client can call the add() and remove() methods on both composite
 and leaf objects, and the appropriate implementation will be used depending on the type of object.*/
-

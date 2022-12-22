@@ -1,7 +1,6 @@
 package com.patterns.composite;
 
 import java.util.Collections;
-import java.util.Iterator;
 import java.util.List;
 
 /**
@@ -37,7 +36,7 @@ public class Leaf implements Composite {
     public int getValue() {
         return this.value;
     }
-    
+
 //    @Override
 //    public Iterator<Composite> iterator() {
 //        return new Iterator<Composite>() {

@@ -1,6 +1,5 @@
 package com.patterns.composite;
 
-import java.util.Iterator;
 import java.util.List;
 
 /**
@@ -30,6 +29,6 @@ public interface Composite {
      * @return the value of the composite
      */
     int getValue();
-    
+
 //    Iterator<Composite> iterator();
 }

@@ -1,7 +1,6 @@
 package com.patterns.composite;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 /**
@@ -39,7 +38,7 @@ public class ConcreteComposite implements Composite {
     public int getValue() {
         return this.value;
     }
-    
+
 //    @Override
 //    public Iterator<Composite> iterator() {
 //        return new CompositeIterator(this);
