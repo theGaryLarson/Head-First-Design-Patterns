@@ -11,6 +11,7 @@ public class ConcreteHandlerA implements Handler {
     public void handleRequest(String request) {
         if (request.equals("A")) {
             // handle the request
+            //RequestBlob.Actor.secondAbil.Athletics.
             System.out.println("ConcreteHandlerA handled the request.");
         } else {
             // pass the request to the next handler
