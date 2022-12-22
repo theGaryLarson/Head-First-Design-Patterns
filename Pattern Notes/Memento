@@ -1,0 +1,17 @@
+The com.patterns.memento.Memento pattern is a behavioral design pattern that allows an object to
+save and restore its previous state without violating encapsulation. It is
+often used to implement undo/redo functionality in an application.
+
+The com.patterns.memento.Memento pattern consists of three main components:
+
+Originator: This is the object whose state needs to be saved and restored.
+It has a createMemento() method that creates a com.patterns.memento.Memento object and saves the
+current state of the originator. It also has a restore(com.patterns.memento.Memento m) method that
+restores the originator to the state saved in the com.patterns.memento.Memento object.
+
+com.patterns.memento.Memento: This is a simple object that stores the state of the originator.
+It has a private constructor and only the originator can create and access it.
+
+Caretaker: This is an optional component that stores and manages com.patterns.memento.Memento objects.
+It has a save(com.patterns.memento.Memento m) method that saves the com.patterns.memento.Memento object and a restore(int index)
+method that restores the originator to the state saved at a specific index in the list of com.patterns.memento.Memento objects.
