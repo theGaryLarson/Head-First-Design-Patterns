@@ -1,0 +1,11 @@
+The prototype pattern is a creational design pattern that allows an object to be copied or
+cloned to create a new instance of that object. This is useful when creating an object is
+expensive or requires a lot of resources, as the prototype pattern allows you to create a new
+object by copying an existing object rather than creating a new one from scratch.
+
+One strength of the prototype pattern is that it can improve performance by reducing the number of
+costly object creations. It can also allow for greater flexibility in object creation, as the prototype
+object can be easily modified to create different variations of the object.
+
+A weakness of the prototype pattern is that it can be more complex to implement, as the object
+being cloned must be made cloneable and the cloning process must be properly implemented.
