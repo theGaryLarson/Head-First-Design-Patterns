@@ -1,4 +1,4 @@
-package com.geometry;
+package com.patterns.adapter;
 
 /**
  * The Vector3d class represents a 3D vector with x, y, and z coordinates.

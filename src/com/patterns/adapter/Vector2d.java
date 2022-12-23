@@ -1,4 +1,4 @@
-package com.geometry;
+package com.patterns.adapter;
 /**
  * The Vector2d class represents a 2D vector with x and y coordinates.
  * Used to demonstrate Adapter Pattern

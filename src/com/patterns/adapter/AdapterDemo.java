@@ -1,7 +1,5 @@
 package com.patterns.adapter;
 
-import com.geometry.Vector2d;
-
 /**
  * Demonstration class for the Adapter design pattern.
  *

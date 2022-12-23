@@ -1,8 +1,5 @@
 package com.patterns.adapter;
 
-import com.geometry.Vector2d;
-import com.geometry.Vector3d;
-
 /**
  * The Adapter class is a class that adapts an Adaptee to the Target interface, enabling
  * the client code to use the Adaptee through the Target interface.

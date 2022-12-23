@@ -1,7 +1,5 @@
 package com.patterns.adapter;
 
-import com.geometry.Vector3d;
-
 /**
  * The Adaptee class represents the class that has an incompatible interface with the client code.
  *

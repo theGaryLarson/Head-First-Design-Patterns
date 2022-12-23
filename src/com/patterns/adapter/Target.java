@@ -1,7 +1,5 @@
 package com.patterns.adapter;
 
-import com.geometry.Vector2d;
-
 /**
  * The Target interface represents the interface that the client code expects.
  *

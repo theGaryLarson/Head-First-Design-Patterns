@@ -1,7 +1,5 @@
 package com.patterns.adapter;
 
-import com.geometry.Vector2d;
-
 /**
  * The Client class uses the Target interface to call the getVector method.
  */
