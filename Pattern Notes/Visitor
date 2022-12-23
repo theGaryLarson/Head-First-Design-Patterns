@@ -1,0 +1,19 @@
+The Visitor pattern is a behavioral design pattern that allows you to add new behavior
+to existing class hierarchy without modifying the classes. It does this by separating
+the new behavior into a separate class, called a visitor, and having the existing
+classes accept the visitor.
+
+One of the main strengths of the Visitor pattern is that it allows you to
+add new behavior to existing classes without having to modify the classes themselves.
+This can be particularly useful when you want to add behavior to a large class hierarchy
+and don't want to modify each class individually.
+
+Another strength of the Visitor pattern is that it promotes the separation of concerns.
+The existing class hierarchy is responsible for storing and organizing data, while the
+visitor is responsible for performing operations on that data. This separation of
+responsibilities can make the code easier to understand and maintain.
+
+On the other hand, one potential weakness of the Visitor pattern is that it can make the code more
+complex, as it involves creating additional classes and methods. Additionally, the Visitor pattern
+can be less efficient than other approaches, as it requires extra method calls to traverse the class
+hierarchy.
